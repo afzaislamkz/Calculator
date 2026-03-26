@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html>
+<!--Developed By Afza Islam-->
+<head>
+    <title>Calculator by Afza Islam</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+ 
+<body>
+    <div id="calculator">
+        <input type="text" id="result" placeholder="0" readonly>
+ 
+        <div id="keys">
+ 
+            <button onclick="clearDisplay()" class="Operator-btn">C</button>
+            <button onclick="divide()" class="Operator-btn">÷</button>
+            <button onclick="multi()" class="Operator-btn">×</button>
+            <button onclick="backspace()" class="Operator-btn">⌫</button>
+ 
+            <button onclick="seven()">7</button>
+            <button onclick="eight()">8</button>
+            <button onclick="nine()">9</button>
+            <button onclick="minus()" class="Operator-btn">−</button>
+ 
+            <button onclick="four()">4</button>
+            <button onclick="five()">5</button>
+            <button onclick="six()">6</button>
+            <button onclick="plus()" class="Operator-btn">+</button>
+ 
+            <button onclick="one()">1</button>
+            <button onclick="two()">2</button>
+            <button onclick="three()">3</button>
+ 
+            <button onclick="zero()" style="grid-column: span 2; border-radius: 50px;">0</button>
+            <button onclick="dot()">.</button>
+ 
+            <button onclick="calculate()" class="eq-btn">=</button>
+ 
+        </div>
+    </div>
+ 
+    <script src="script.js"></script>
+</body>
+</html>
